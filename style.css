@@ -59,10 +59,12 @@ p {
   color: white;
   display: flex;
   font-size: 20px;
+  text-shadow: 2px 2px #000; 
 }
 
 #countdown .countdown-section {
   padding: 0 15px;
+
 }
 
 #countdown .countdown-section:last-child {
@@ -81,18 +83,21 @@ p {
 }
 
 .text {
-  font-family: "Kaushan Script", cursive;
-  color: black;
-  opacity: 0.6;
-  font-size: 50px;
+	font-family: "Brush Script MT", cursive;
+	color: black;
+	opacity: 0.6;
+	font-size: 50px;
+	text-shadow: 2px 1px #fff;
 }
 
 .text-sub {
-  font-family: "Kaushan Script", cursive;
-  color: white;
-  opacity: 0.85;
-  font-size: 20px;
-  margin: 0 20% 0 20%;
+	font-family: "Brush Script MT", cursive;
+
+	color: white;
+	opacity: 0.80;
+	font-size: 20px;
+	text-shadow: 2px 1px #000000;
+	margin: 0 20% 0 20%;
 }
 
 /* Media query for mobile screens */
