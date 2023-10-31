@@ -1,0 +1,281 @@
+/* Default styles for larger screens */
+html {
+  background: url("https://i.imgur.com/2BLqiiS.png") no-repeat center center
+    fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  background: transparent;
+  height: 100%;
+}
+
+.wrap {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}
+
+.logo {
+  -ms-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  padding-top: 20px;
+}
+
+.logo a {
+  font-family: "Kaushan Script", cursive;
+  color: white;
+  font-size: 36px;
+  padding: 10px;
+  opacity: 0.75;
+}
+
+.logo a .logo-alt {
+  color: black;
+  font-size: 24px;
+}
+
+.logo a:hover,
+.logo a:focus {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
+#countdown {
+  font-family: "Kaushan Script", cursive;
+  color: white;
+  display: flex;
+  font-size: 20px;
+}
+
+#countdown .countdown-section {
+  padding: 0 15px;
+}
+
+#countdown .countdown-section:last-child {
+  border-right: 0;
+}
+
+#countdown .countdown-section .h1 {
+  opacity: 0.85;
+  font-size: 50px;
+}
+
+#countdown .countdown-section .text-center {
+  color: black;
+  opacity: 0.55;
+  font-size: 30px;
+}
+
+.text {
+  font-family: "Brush Script MT", cursive;
+  color: black;
+  opacity: 0.6;
+  font-size: 50px;
+}
+
+.text-sub {
+  font-family: "Brush Script MT", cursive;
+  color: white;
+  opacity: 0.85;
+  font-size: 20px;
+  margin: 0 20% 0 20%;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 866px) {
+  html {
+    background-size: auto; /* Adjust background size for smaller screens */
+  }
+
+  .wrap {
+    height: auto; /* Remove fixed height for mobile screens */
+  }
+
+  .logo {
+    transform: rotate(0deg); /* Reset rotation for mobile screens */
+  }
+
+  .logo a {
+    font-size: 24px; /* Reduce font size for mobile screens */
+  }
+
+  #countdown .countdown-section {
+    font-size: 16px; /* Reduce font size for mobile screens */
+  }
+
+  #countdown .countdown-section .h1 {
+    font-size: 40px; /* Reduce font size for mobile screens */
+  }
+
+  #countdown .countdown-section .text-center {
+    font-size: 24px; /* Reduce font size for mobile screens */
+  }
+
+  .text {
+    font-size: 40px; /* Reduce font size for mobile screens */
+  }
+
+  .text-sub {
+    font-size: 16px; /* Reduce font size for mobile screens */
+    margin: 0; /* Remove the left and right margin for mobile screens */
+  }
+}
+
+/* Default styles for larger screens */
+/* ... Your existing styles ... */
+
+/* Media query for iPhone 5/SE */
+@media only screen and (max-width: 320px) {
+  /* Adjust styles for iPhone 5/SE */
+  html {
+    background-size: auto; /* Adjust background size for smaller screens */
+  }
+
+  .wrap {
+    height: auto; /* Remove fixed height for mobile screens */
+  }
+
+  .logo {
+    transform: rotate(0deg); /* Reset rotation for mobile screens */
+    padding-top: 10px; /* Reduce padding */
+  }
+
+  .logo a {
+    font-size: 20px; /* Reduce font size for mobile screens */
+    padding: 5px; /* Reduce padding */
+  }
+
+  #countdown .countdown-section {
+    font-size: 16px; /* Reduce font size for mobile screens */
+    padding: 0 10px; /* Reduce padding */
+  }
+
+  #countdown .countdown-section .h1 {
+    font-size: 40px; /* Reduce font size for mobile screens */
+  }
+
+  #countdown .countdown-section .text-center {
+    font-size: 24px; /* Reduce font size for mobile screens */
+  }
+
+  .text {
+    font-size: 40px; /* Reduce font size for mobile screens */
+  }
+
+  .text-sub {
+    font-size: 16px; /* Reduce font size for mobile screens */
+    margin: 0; /* Remove the left and right margin for mobile screens */
+  }
+}
+
+/* Media query for iPhone 6/7/8 */
+@media only screen and (max-width: 414px) {
+  .logo a {
+    font-size: 30px; /* Reduce font size for mobile screens */
+    padding: 12px; /* Reduce padding */
+  }
+
+  #countdown .countdown-section {
+    font-size: 18px;
+    padding-top: 50%;
+    border-right: 1px solid rgba(255, 255, 255, 0);
+  }
+
+  #countdown .countdown-section .h1 {
+    font-size: 40px; /* Reduce font size for mobile screens */
+  }
+
+  #countdown .countdown-section .text-center {
+    font-size: 20px; /* Reduce font size for mobile screens */
+  }
+
+  .text {
+    font-size: 35px; /* Reduce font size for mobile screens */
+  }
+
+  .text-sub {
+    font-size: 15px;
+    padding-top: 40%;
+    text-align: center;
+  }
+}
+
+/* Media query for iPhone X/XS/11 */
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+  /* Adjust styles for iPhone X/XS/11 */
+  .logo a {
+    font-size: 30px; /* Reduce font size for mobile screens */
+    padding: 12px; /* Reduce padding */
+  }
+
+  #countdown .countdown-section {
+    font-size: 18px;
+    padding-top: 50%;
+    border-right: 1px solid rgba(255, 255, 255, 0);
+  }
+
+  #countdown .countdown-section .h1 {
+    font-size: 40px; /* Reduce font size for mobile screens */
+  }
+
+  #countdown .countdown-section .text-center {
+    font-size: 20px; /* Reduce font size for mobile screens */
+  }
+
+  .text {
+    font-size: 35px; /* Reduce font size for mobile screens */
+  }
+
+  .text-sub {
+    font-size: 15px;
+    padding-top: 70%;
+    text-align: center;
+  }
+}
+
+/* Media query for iPhone 12/13 models */
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+  /* Adjust styles for iPhone 12/13 models */
+  .logo a {
+    font-size: 30px; /* Reduce font size for mobile screens */
+    padding: 12px; /* Reduce padding */
+  }
+
+  #countdown .countdown-section {
+    font-size: 18px;
+    padding-top: 50%;
+    border-right: 1px solid rgba(255, 255, 255, 0);
+  }
+
+  #countdown .countdown-section .h1 {
+    font-size: 40px; /* Reduce font size for mobile screens */
+  }
+
+  #countdown .countdown-section .text-center {
+    font-size: 20px; /* Reduce font size for mobile screens */
+  }
+
+  .text {
+    font-size: 35px; /* Reduce font size for mobile screens */
+  }
+
+  .text-sub {
+    font-size: 15px;
+    padding-top: 70%;
+    text-align: center;
+  }
+}
