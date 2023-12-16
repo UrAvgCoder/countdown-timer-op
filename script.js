@@ -40,7 +40,7 @@ function initializeClock(id, endtime) {
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
-var deadline = "December 15 2023 00:00:00 UTC";
+var deadline = "December 18 2023 00:00:00 UTC";
 initializeClock("countdown", deadline);
 
 })
